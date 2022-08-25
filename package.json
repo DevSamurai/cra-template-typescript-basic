@@ -1,0 +1,27 @@
+{
+  "name": "@devsamurai/cra-template-typescript-basic",
+  "version": "0.0.1",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template",
+    "typescript"
+  ],
+  "description": "React.js basic typescript template.",
+  "main": "template.json",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DevSamurai/cra-template-typescript-basic"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=8"
+  },
+  "bugs": {
+    "url": "https://github.com/DevSamurai/cra-template-typescript-basic/issues"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ]
+}

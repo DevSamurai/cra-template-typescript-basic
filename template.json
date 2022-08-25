@@ -1,0 +1,41 @@
+{
+  "package": {
+    "dependencies": {
+      "@testing-library/jest-dom": "^5.16.5",
+      "@testing-library/react": "^13.3.0",
+      "@testing-library/user-event": "^13.5.0",
+      "@types/jest": "^27.5.2",
+      "@types/node": "^16.11.49",
+      "@types/react": "^18.0.17",
+      "@types/react-dom": "^18.0.6",
+      "axios": "^0.27.2",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "react-icons": "^4.4.0",
+      "react-router-dom": "^6.3.0",
+      "react-scripts": "5.0.1",
+      "styled-components": "^5.3.5",
+      "styled-normalize": "^8.0.7",
+      "typescript": "^4.7.4",
+      "web-vitals": "^2.1.4"
+    },
+    "devDependencies": {
+      "@types/styled-components": "^5.1.26",
+      "@typescript-eslint/eslint-plugin": "^5.33.1",
+      "@typescript-eslint/parser": "^5.33.1",
+      "eslint": "^8.22.0",
+      "eslint-config-prettier": "^8.5.0",
+      "eslint-plugin-prettier": "^4.2.1",
+      "eslint-plugin-react": "^7.30.1",
+      "eslint-plugin-react-hooks": "^4.6.0",
+      "json-server": "^0.17.0",
+      "prettier": "^2.7.1"
+    },
+    "scripts": {
+      "lint": "eslint src/**/*.{js,jsx,ts,tsx,json}",
+      "lint:fix": "eslint --fix 'src/**/*.{js,jsx,ts,tsx,json}'",
+      "format": "prettier --write 'src/**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc",
+      "json-server": "json-server --watch db.json --port 5000"
+    }
+  }
+}
